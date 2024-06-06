@@ -1,0 +1,123 @@
+body {
+    background: radial-gradient(circle at center, #fff6aa 5%, #ffffff 70%);
+    font-family: Arial, sans-serif, Poppins;
+  }
+  
+  /* Header Start */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    width: 138px;
+    height: 58px;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav .home-link {
+    color: black;
+    transition: color 0.2s ease, font-size 0.2s ease; 
+    }
+  
+  .nav .artikel-link {   
+      font-size: 24px;
+      color: #fde540;
+  }
+  
+  .nav .home-link:hover {
+    font-size: 24px;
+    color: #fde540;
+    transition: 0.2s ease;
+  }
+    
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ffe500;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 600px;
+    flex-grow: 1;
+    background-color: transparent;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #ffe500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-bar button:hover {
+    filter: brightness(90%);
+  }
+  /* Header End */
+  
+  .pop h2{
+      margin-top: 140px;
+      margin-left: 120px;
+      font-size: 32px;
+  }
+
+  .pop p {
+    margin-top: -25px;
+    margin-left: 120px;
+  }
+
+  .content {
+    padding: 20px;
+    margin-left: 100px;
+  }
+
+  .gambar-artikel .image img{
+    width: 1192px;
+    height: 375px;
+    border-radius: 4px;
+  }
+  
+  .image {
+    margin-bottom: 20px;
+  }
+  
+  .title-artikel {
+    padding: 10px;
+    margin-left: -10px;
+  }
+  
+  .gambar-text {
+    margin-top: 30px;
+    max-width: 1192px;
+  }
+  
+  .gambar-text .deskripsi{
+    width: 720px;
+    font-size: 20px;
+  }

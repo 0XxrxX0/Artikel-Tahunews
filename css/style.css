@@ -1,0 +1,147 @@
+body {
+  background: radial-gradient(circle at center, #fff6aa 5%, #ffffff 70%);
+  font-family: Arial, sans-serif, Poppins;
+}
+
+/* Header Start */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 138px;
+  height: 58px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav .home-link {
+    font-size: 24px;
+    color: #fde540;
+  }
+
+.nav .artikel-link {
+    color: black;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+.nav .artikel-link:hover {
+  font-size: 24px;
+  color: #fde540;
+  transition: 0.2s ease;
+}
+  
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ffe500;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 600px;
+  flex-grow: 1;
+  background-color: transparent;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #ffe500;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  filter: brightness(90%);
+  transition: 0.5s ease;
+}
+/* Header End */
+
+/* Bagian Selamat Datang */
+.pop h2{
+    margin-left: 130px;
+    margin-top: 140px;
+    font-size: 50px;
+}
+
+.pop .kuning-teks {
+    color: #ffe500;
+}
+
+.pop p {
+    margin-left: 130px;
+    margin-top: -20px;
+    width: 600px;
+}
+
+.pop .kuningpp {
+    font-weight: bold;
+}
+
+/* Gambar Berita */
+.berita {
+    margin-top: 180px;
+    margin-left: 130px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .image {
+    width: 382px;
+    height: 200px;
+    border-radius: 4px;
+    transform: scale(1);
+    transition: 0.5s ease
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }
+  
+  .caption {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,176 @@
+body {
+  background: radial-gradient(circle at center, #fff6aa 5%, #ffffff 70%);
+  font-family: Arial, sans-serif, Poppins;
+}
+
+/* Header Start */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 138px;
+  height: 58px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav .home-link {
+  color: black;
+  transition: color 0.2s ease, font-size 0.2s ease; 
+  }
+
+.nav .artikel-link {   
+    font-size: 24px;
+    color: #fde540;
+}
+
+.nav .home-link:hover {
+  font-size: 24px;
+  color: #fde540;
+  transition: 0.2s ease;
+}
+  
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ffe500;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 600px;
+  flex-grow: 1;
+  background-color: transparent;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #ffe500;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  filter: brightness(90%);
+}
+/* Header End */
+
+/* Bagian Selamat Datang */
+.pop h2{
+    margin-top: 140px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pop .kuning-teks {
+    color: #ffe500;
+}
+
+/* Mengatur Grid */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 65px;
+}
+
+.gambar-artikel .image img{
+  width: 882px;
+  height: 328px;
+  border-radius: 4px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.title-artikel {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: -10px;
+  margin-top: -30px;
+}
+
+.gambar-text {
+  font-size: 14px;
+  margin-top: -40px;
+}
+
+.gambar-text .deskripsi{
+  width: 720px;
+  font-size: 20px;
+}
+
+/* Mengatur ke empat Card di sebelah kanan */
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  width: 262px;
+  height: 144px;
+  background-color: #FFFFFF;
+}
+
+.card-top {
+  border-radius: 5px;
+  padding: 20px;
+  width: 262px;
+  height: 144px;
+  background-color: #FFFFFF;
+}
+
+.sidecontent .card{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.sidecontent .card-top {
+  margin-left: 30px;
+}
+
+.gambar-title img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 102px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.judul-artikel {
+  margin-top: -15px;
+  font-weight: bold
+}
+
+.preview-text{
+  font-size: 14px;
+}
+
+
